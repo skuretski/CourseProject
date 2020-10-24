@@ -1,3 +1,7 @@
-# CourseProject
+# CS410 Fall 2020 Course Project
 
-Please fork this repository and paste the github link of your fork on Microsoft CMT. Detailed instructions are on Coursera under Week 1: Course Project Overview/Week 9 Activities.
+This project uses Google Vision API to do sentiment analysis on Reddit memes. The dataset used for this project is from 
+[Kaggle](https://www.kaggle.com/sayangoswami/reddit-memes-dataset). This course project is done with by Susie Kuretski (skure2@illinois.edu) only.
+
+
+
