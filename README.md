@@ -7,7 +7,11 @@ Utilizing Google Vision's optical character recognition to perform K-means clust
 # Overview
 From this [Kaggle](https://www.kaggle.com/sayangoswami/reddit-memes-dataset) dataset, which includes data for ~3300 Reddit memes, I extracted the image and uploaded it to Google Cloud Platform storage bucket. Then, I ran these images through optical character recognition and translation using Google Vision and Translate. Link to API docs [here](https://cloud.google.com/vision/docs/ocr). Once this was done, the results were stored in a GCP bucket as JSON data. An example would be:
 
-[!85805u](./85805u.jpg?raw=true "85805u")
+## The starting image
+
+![85805u](https://github.com/skuretski/CourseProject/blob/main/85805u.jpg?raw=true "85805u")
+
+## The JSON result after OCR
 
 `{` <br />
 `"src_lang": "en",`<br/>
