@@ -2,8 +2,10 @@
 Written by Susie Kuretski (skure2@illinois.edu)
 <br/>
 <br/>
-__The best way to contact me is via Slack in #cs-410-text-info-syst @Susie Kuretski__
+Video Link here [YouTube](https://www.youtube.com/watch?v=AzIGBWBjmY8) (https://www.youtube.com/watch?v=AzIGBWBjmY8)
 <br/>
+<br/>
+__The best way to contact me is via Slack in #cs-410-text-info-syst @Susie Kuretski__
 <br/>
 You can also contact me at skuretski@gmail.com or skure2@illinois.edu (not as quick).
 # Topic
