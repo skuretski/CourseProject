@@ -2,7 +2,7 @@
 Written by Susie Kuretski (skure2@illinois.edu)
 <br/>
 <br/>
-Video Link here [YouTube](https://www.youtube.com/watch?v=AzIGBWBjmY8) (https://www.youtube.com/watch?v=AzIGBWBjmY8)
+Video Link here [YouTube](https://www.youtube.com/watch?v=kLedDGQIZyA) (https://www.youtube.com/watch?v=kLedDGQIZyA)
 <br/>
 <br/>
 __The best way to contact me is via Slack in #cs-410-text-info-syst @Susie Kuretski__
@@ -90,7 +90,7 @@ I used code from [scikit learn](https://scikit-learn.org/stable/auto_examples/cl
 
 With the Elbow method and silhouette analysis, it seemed that 3 was a good number of clusters for this data. 
 
-## 9. Results
+## 9. Evaluation and Results
 Overall, 3 clusters seemed to be the magic number based on evaluation. Selecting features > 1500 seemed to be detrimental to clustering where the clusters were very skewed and had many outliers, even with PCA dimensionality reduction. 
 
 The 3 clusters had these top words:
@@ -104,7 +104,7 @@ For improvements, it might be useful to try different stemming methods and addin
 
 It would also be interesting to see bi-grams of this. When I did the TF-IDF vectorization, I stuck with unigrams since I just wanted to use bag of words representation before getting ahead of myself.
 
-Overall, this project has been a great learning experience in terms of working with real data, using Google Vision, seeing how K-means works especially after doing EM algorithm work, and evaluation of clusters. 
+Overall, this project has been a great learning experience in terms of working with real data, using Google Vision, seeing how K-means works especially after doing EM algorithm work, and evaluation of clusters. Despite deviating from the original plan of sentiment analysis, I did get the general outcomes I wanted with cluster analysis. It would have been nice to see more clusters or more clearly defined feature words, but I think that would have come with more refinement. 
 
 # How to Run
 
