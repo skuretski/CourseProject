@@ -29,7 +29,7 @@ From this [Kaggle](https://www.kaggle.com/sayangoswami/reddit-memes-dataset) dat
 
 # Step-by-Step Details
 
-__For steps 3-7, I used code from (Kaggle - Use DFoly1) [https://www.kaggle.com/dfoly1/k-means-clustering-from-scratch]__
+__For steps 3-7, I used code from [Kaggle - Use DFoly1](https://www.kaggle.com/dfoly1/k-means-clustering-from-scratch)__
 
 ## 1. Preprocessing the Data
 Once the Kaggle set was downloaded, I did a quick check on the data to make sure each row had an ID and link to an image with Tableau Prep. I did not find any rows without these properties.
@@ -52,7 +52,7 @@ After doing OCR, it was important to do some regular expressions to clean up thi
 ## 4. Stop Words and Stemming
 For stop words and stemming, I used Natural Language Toolkit (NLTK) for Python. I did add some additional stop words based on my findings with the memes, like "meme" and "rdankmemes" which was a Reddit tag. For stemming, I used a Porter stemmer since it is relatively fast and works well with the English language. The Porter stemmer is:
 
-> "Based on the idea that the suffixes in the English language are made up of a combination of smaller and simpler suffixes." [1] (https://www.geeksforgeeks.org/introduction-to-stemming/)
+> "Based on the idea that the suffixes in the English language are made up of a combination of smaller and simpler suffixes." [1](https://www.geeksforgeeks.org/introduction-to-stemming/)
 
 ## 5. TF-IDF Vectorization
 Once stop words and stemming was done, I transformed the text from the memes into a TF-IDF vector using `sklearn`. This method has many options like n-gram range, maximum or minimum document frequency, maximum features, smoothing, and using sublinear term frequency. I tried different variations of TF-IDF vectorization to see how that would affect K-means clustering. With this specific dataset, the maximum number of features seemed to be optimal around 1000-1500. Anything beyond this would cause the clustering to have a lot of outliers, resulting in imbalanced and poorly grouped clusters. I also tried the sublinear term frequency option, but that caused some irregularities as well, similar to increasing number of features. 
