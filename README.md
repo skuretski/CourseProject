@@ -1,6 +1,11 @@
 # CS410 Fall 2020 Course Project
 Written by Susie Kuretski (skure2@illinois.edu)
-
+<br/>
+<br/>
+__The best way to contact me is via Slack in #cs-410-text-info-syst @Susie Kuretski__
+<br/>
+<br/>
+You can also contact me at skuretski@gmail.com or skure2@illinois.edu (not as quick).
 # Topic
 Utilizing Google Vision's optical character recognition to perform K-means cluster analysis on Reddit memes
 
@@ -99,4 +104,38 @@ It would also be interesting to see bi-grams of this. When I did the TF-IDF vect
 
 Overall, this project has been a great learning experience in terms of working with real data, using Google Vision, seeing how K-means works especially after doing EM algorithm work, and evaluation of clusters. 
 
+# How to Run
+
+## Anaconda
+If you're interested in setting this up yourself, some test data is provided. Here is what my environment looks like:
+- Anaconda v4.9.2 - Download [here](https://www.anaconda.com/products/individual)
+- Python v3.7.9
+- Anaconda environment file [here](https://github.com/skuretski/CourseProject/blob/main/environment.yml)
+- OS: Windows Subsystem Linux 18.04 Ubuntu (optional)
+
+1. Git clone the repository or download the ZIP. 
+2. Navigate to the directory where it is saved. 
+3. With the `environment.yml` file, change the prefix to where your Anaconda environments are stored. For me, it is `/home/skuretski/anaconda3/envs/cs410`. So for you, it might be `/your/directoryToAnacondaEnv/anacondaVersion/envs/cs410`
+4. Run command `conda env create -f environment.yml`
+5. Run `conda activate cs410`
+6. Run `jupyter notebook`
+7. Navigate to whatever URL the `jupyter notebook` command logged. It is usually something like `http://localhost:8888/?token=someStringHere`
+8. Navigate to `KMeans.ipynb` from the `localhost` page.
+9. I've included a directory called `test_data` which includes some resulting OCR JSON files locally. It is not all of them, but will give you a sense of how the code works.
+9. Make sure the first cell is selected and then hit Run. Continue this in sequence.
+
+## Without Anaconda
+Without Anaconda is possible, however, you will have to globally install some dependencies.
+- Python v3.7.9
+- Matplotlib v3.3.2
+- Numpy v1.19.2
+- Pandas v1.1.3
+- Seaborn v0.11.0
+- NLTK v3.5
+- scikit-learn v0.23.2
+- scipy v1.5.2
+- Wordcloud v1.8.1
+- Jupyter Notebook
+
+This project is powered by Python, those listed libraries, and Jupyter notebook. 
 
